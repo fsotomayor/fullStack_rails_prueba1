@@ -1,8 +1,6 @@
 Rails.application.routes.draw do
   get 'experiments/page1'
-
   get 'experiments/page2'
-
   get 'experiments/page3'
 
   root 'pages#batman-vs-superman'

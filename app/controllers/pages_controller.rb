@@ -19,11 +19,11 @@ class PagesController < ApplicationController
   end
 
   def save_superman
-  	if params[:nombre].present?
-  		VotosSuperman.create(name: params[:nombre])
+  	if params[:nombre1].present?
+  		VotosSuperman.create(name: params[:nombre1])
   	end
-  	if params[:email].present?
-  		VotosSuperman.create(name: params[:email])
+  	if params[:email1].present?
+  		VotosSuperman.create(name: params[:email1])
   	end
   end
 end

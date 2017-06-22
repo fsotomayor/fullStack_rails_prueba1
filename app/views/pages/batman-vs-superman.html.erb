@@ -17,12 +17,12 @@
 <div class="superman">
 	<p><a href="<%= pages_superman_path %>">Ir a SUPERMAN</a></p>
 
-	<form action="pages_save_superman_path" method="POST">
+	<form action="<%= pages_save_superman_path %>" method="POST">
 		<%= hidden_field_tag :authenticity_token, form_authenticity_token %>
-		<label for="fname">Tu Nombre</label>
-		<input type="text" name="nombre">
-		<label for="femail">Tu Email</label>
-		<input type="text" name="email">
+		<label for="fname1">Tu Nombre</label>
+		<input type="text" name="nombre1">
+		<label for="femail1">Tu Email</label>
+		<input type="text" name="email1">
 		<input type="submit" >
 	</form>
 </div>
