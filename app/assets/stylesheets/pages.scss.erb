@@ -8,7 +8,98 @@
 	background-size: 100%
 }
 
-.pages.batman h1{
+.pages.superman{
+	background-image: url("<%= asset_path 'superman01' %>");
+	background-repeat: no-repeat;
+	background-size: 100%
+}
+
+.pages.batman-vs-superman{
+	background-image: url("<%= asset_path 'batman' %>"), url("<%= asset_path 'superman01' %>");
+	background-repeat: no-repeat, no-repeat;
+	background-position: left top, right top;
+	background-size: 50%, 50%
+}
+
+.pages.batman-vs-superman .batman{
+	float: left;
+	width: 50%;
+}
+
+.pages.batman-vs-superman .batman a{
+	color: black
+}
+
+.pages.batman-vs-superman .batman a:hover{
+	color: white;
+}
+
+
+.pages.batman-vs-superman .batman form{
+	border: 1px solid #ccc;
+	border-radius: 5px;
+    padding: 20px;
+}
+
+
+.pages.batman-vs-superman .batman input{
+	width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.pages.batman-vs-superman .batman label{
+	color: white
+}
+
+
+
+.pages.batman-vs-superman .superman{
+	float: right;
+	width: 50%;
+}
+
+.pages.batman-vs-superman .superman a{
+	color: white;
+}
+
+.pages.batman-vs-superman .superman a:hover{
+	color: black;
+}
+
+.pages.batman-vs-superman .superman form{
+	border: 1px solid #ccc;
+	border-radius: 5px;
+    padding: 20px;
+}
+
+
+.pages.batman-vs-superman .superman input{
+	width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.pages.batman-vs-superman .superman label{
+	color: black
+}
+
+.pages.batman-vs-superman h1{
+	text-align: center;
+	margin-top: 10%;
+	color: white
+}
+
+
+.pages h1{
 	text-align: center;
 	margin-top: 50%;
 	color: white
